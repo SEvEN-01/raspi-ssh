@@ -1,0 +1,16 @@
+ping raspberrypi.local  # to find raspberry pi ip address
+
+ssh pi@[pi name]
+
+connect?yes
+
+password: {password will be invisible as you type}
+
+sudo raspi-config
+
+enable vnc in Interface settings
+
+save changes
+
+deactivate
+exit
